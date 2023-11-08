@@ -1,5 +1,5 @@
 <!-- 
-      Deployed my Api's on render.com
+    Deployed my Api's on render.com
 
 ## Introduction
 This document provides a guide on how to use the RESTful API for book management. The API is built using Node.js and Express.js and uses MongoDB as a database. The API provides endpoints for creating, reading, updating, and deleting books.
@@ -137,6 +137,20 @@ DELETE /deleteBook/5f9d6a7d3c8d9f0017a7e4d0
     "genre": "Novel",
     "published": "1925"
 }
+```
+
+```
+For Local Environment Setup
+
+package install -> npm install 
+run project -> npm start
+
+Note:
+create a .env file and add the followings
+PORT = 8080
+BASE_URL = "http://localhost:"
+MONGO_URL = "your mongodb atlas link"
+
 ```
 
  -->
